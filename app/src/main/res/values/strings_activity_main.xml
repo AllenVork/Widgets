@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="page1">PAGE_ONE</string>
+    <string name="page2">PAGE_TWO</string>
+    <string name="page3">PAGE_THREE</string>
+    <string name="page4">PAGE_FOUR</string>
+    <string name="page5">PAGE_FIVE</string>
+    <string name="page6">PAGE_SIX</string>
+</resources>

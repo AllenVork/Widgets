@@ -3,4 +3,35 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack20">#cccccc</color>
+
+    <color name="theme_color">#ffffff</color>
+    <color name="theme_red">#e33f33</color>
+    <color name="black_5">#0c000000</color>   <!--黑色，5%不透明-->
+    <color name="black_10">#1B000000</color>  <!--黑色，10%不透明-->
+    <color name="black_14">#24000000</color>  <!--黑色，14%不透明-->
+    <color name="black_15">#27000000</color>  <!--黑色，15%不透明-->
+    <color name="black_20">#33000000</color>  <!--黑色，20%不透明-->
+    <color name="black_30">#4D000000</color>  <!--黑色，30%不透明-->
+
+    <color name="black_40">#66000000</color>  <!--黑色，40%不透明-->
+    <color name="black_50">#80000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_80">#CC000000</color>  <!--黑色，80%不透明-->
+
+    <color name="black_80_noalpha">#333333</color>
+    <color name="black_60_noalpha">#666666</color>
+    <color name="black_50_noalpha">#7f7f7f</color>
+    <color name="black_40_noalpha">#999999</color>
+    <color name="black_20_noalpha">#cccccc</color>
+
+    <color name="white_3">#05ffffff</color>
+    <color name="white_10">#1Bffffff</color>
+    <color name="white_20">#33ffffff</color>
+    <color name="white_30">#4Dffffff</color>
+    <color name="white_40">#66ffffff</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="white_60">#96ffffff</color>
+    <color name="white_80">#CCffffff</color>
+    <color name="white_90">#E5ffffff</color>
 </resources>
