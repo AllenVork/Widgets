@@ -34,7 +34,7 @@ class MainActivity : BaseActivity() {
         recyclerView.setHasFixedSize(true)
         val layoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = layoutManager
-        recyclerView.addItemDecoration(SpaceItemDecoration(10))
+//        recyclerView.addItemDecoration(SpaceItemDecoration(10))
 
         mAdapter = MainAdapter(this)
         recyclerView.adapter = mAdapter

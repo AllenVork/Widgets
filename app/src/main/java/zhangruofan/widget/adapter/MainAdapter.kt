@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import kotlinx.android.synthetic.main.activity_main_item.view.*
 import zhangruofan.widget.R
+import zhangruofan.widget.view.activity.BottomSheetActivity
 import zhangruofan.widget.view.activity.PagerSlidingTabActivity
 
 /**
@@ -39,6 +40,7 @@ class MainAdapter(val mContext: Context) : RecyclerView.Adapter<MainAdapter.Base
             val claz: Class<*>?
             when (layoutPosition) {
                 0 -> claz = PagerSlidingTabActivity::class.java
+                1 -> claz = BottomSheetActivity::class.java
                 else -> claz = null
             }
 

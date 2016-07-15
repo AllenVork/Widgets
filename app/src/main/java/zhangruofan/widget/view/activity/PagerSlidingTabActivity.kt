@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_pager_sliding_tab.*
+import kotlinx.android.synthetic.main.activity_pager_sliding_tab.view.*
 import zhangruofan.widget.R
 import zhangruofan.widget.constants.HomePagerEnum
 import zhangruofan.widget.view.fragment.PagerSlidingTab.Fragment1
@@ -43,7 +44,7 @@ class PagerSlidingTabActivity : BaseActivity() {
         }
 
         override fun getPageTitle(position: Int): CharSequence? {
-            return HomePagerEnum.values().get(position).name
+            return resources.getString(HomePagerEnum.values()[position].mTitleResId)
         }
     }
 }

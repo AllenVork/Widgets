@@ -2,9 +2,11 @@
 <resources>
     <array name="realm_title_array">
         <item>PagerSlidingTabStrip</item>
+        <item>Bottom Sheet</item>
     </array>
 
     <array name="realm_content_array">
-        <item>可滑动的Tab.</item>
+        <item>可滑动的Tab</item>
+        <item>底栏</item>
     </array>
 </resources>
